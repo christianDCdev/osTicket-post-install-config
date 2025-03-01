@@ -23,17 +23,66 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Configure Departments
 - Configure Teams
 - Configure Agents
+- Configure Users
 - Configure SLA
 - Configure Help Topics
 
 <h2>Configuration Steps</h2>
-<h3>&#9312; Configure Roles</h3>
+<h3>&#9312; Configure Roles (used for grouping permissions)</h3>
 
 <p>
 
-- Create a resource group in Azure
-<img src="https://i.imgur.com/Z2iVbds.png" height="80%" width="80%" alt="Remote desktop IP"/>
+- Once logged into osTicket, navigate to "Admin Panel" -> Agents -> Roles
+- Click "Add New Role"
+<img src="https://i.imgur.com/egyX7q9.png" height="80%" width="80%" alt="New Role window"/>
+
+- Name the role for someone that has full access (in my case I named the role "Supreme Admin")
+- Under "Permissions" tab, enable all check boxes
+- Click "Add Role" once your finished, and if done correctly, your new role will be under the "Roles" list
+<img src="https://i.imgur.com/52Hqo4p.png" height="80%" width="80%" alt="Role list"/>
 
 </p>
 <br />
+<h3>&#9313; Configure Departments (used for ticket visibility)</h3>
 
+<p>
+
+- Within osTicket, navigate to "Admin Panel" -> Agents -> Departments
+- Click "Add New Department" then fill out the following fields:
+  - Parent: Top Level Department
+  - Name: SysAdmins
+<img src="https://i.imgur.com/aP0Rvsl.png" height="80%" width="80%" alt="New department page"/>
+
+- Click "Create Dept"
+  
+</p>
+<br />
+<h3>&#9314; Configure Teams  </h3>
+
+<p>
+
+- Within osTicket, navigate to "Admin Panel" -> Agents -> Teams
+- Click "Add New Team"
+- Name the team "Online Banking" and click "Create Team"
+<img src="https://i.imgur.com/IphnRA8.png" height="80%" width="80%" alt="New team page"/>
+  
+</p>
+<br />
+<h3>&#9315; Allow anyone to create a ticket</h3>
+
+<p>
+
+- Within osTicket, navigate to "Admin Panel" -> Settings -> Users
+- Disable "Registration Required" box (should be unchecked)
+- Click "Save Changes"
+<img src="https://i.imgur.com/o5fMnC2.png" height="80%" width="80%" alt="User Settings"/>
+</p>
+<br />
+<h3>&#9316; Configure Agents</h3>
+
+<p>
+
+- Within osTicket, navigate to "Admin Panel" -> Agents -> Add New
+- 
+  
+</p>
