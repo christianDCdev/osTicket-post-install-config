@@ -78,11 +78,54 @@ This tutorial outlines the post-install configuration of the open-source help de
 <img src="https://i.imgur.com/o5fMnC2.png" height="80%" width="80%" alt="User Settings"/>
 </p>
 <br />
-<h3>&#9316; Configure Agents</h3>
+<h3>&#9316; Configure Agents (employees / workers)</h3>
 
 <p>
 
-- Within osTicket, navigate to "Admin Panel" -> Agents -> Add New
+- Within osTicket, navigate to "Admin Panel" -> Agents -> Add New Agent
+- Fill out necessary fields
+<img src="https://i.imgur.com/sjJU9tz.png" height="80%" width="80%" alt="Agent creation"/>
+
+- Within "Access" tab, assign department and role
+<img src="https://i.imgur.com/k0GP3v9.png" height="80%" width="80%" alt="Agent dept and roleassignment"/>
+
+- Within "Teams" tab, assign team, then click "Create" to finish
+<img src="https://i.imgur.com/ndfpvuA.png" height="80%" width="80%" alt="Agent team assignment"/>
+
+- In my case, I created 2 agents with the following assignments:
+  - Agent 1:
+    - Name: Jane Doe
+    - Email Address: Jane@lognpacific.com
+    - Username: jane
+    - Password: Password1
+    - Department: Support / SysAdmins
+    - Role: Supreme Admin
+    - Team: Online Banking
+  - Agent 2:
+    - Name: John Doe
+    - Email Address: john@lognpacific.com
+    - Username: john
+    - Password: Password1
+    - Department: Support
+    - Role: View Only
+    - Team: (Unassigned)
+  
+</p>
+<br />
+<h3>&#9317; Configure Users (customers)</h3>
+
+<p>
+
+- Within "Agent Panel", navigate to Users -> Add User
+- Fill out necessary fields and click "Add User" to finish
+<img src="https://i.imgur.com/ndfpvuA.png" height="80%" width="80%" alt="Add user page"/>
+  
+</p>
+<br />
+<h3>&#9318; Configure SLA</h3>
+
+<p>
+
 - 
   
 </p>
