@@ -118,7 +118,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 - Within "Agent Panel", navigate to Users -> Add User
 - Fill out necessary fields and click "Add User" to finish
-<img src="https://i.imgur.com/ndfpvuA.png" height="80%" width="80%" alt="Add user page"/>
+<img src="https://i.imgur.com/BmjV8yT.png" height="80%" width="80%" alt="Add user page"/>
   
 </p>
 <br />
@@ -126,6 +126,23 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <p>
 
-- 
+- Within "Admin Panel", navigate to "Manage" -> SLA -> Add New SLA Plan
+- Fill out necessary fields and click "Add Plan" to complete
+- We are going to create 3 SLA's:
+  - 1:
+    - Name: Sev-A
+    - Grace Period: 1 (hr)
+    - Schedule: 24/7
+  - 2:
+    - Name: Sev-B
+    - Grace Period: 4 (hrs)
+    - Schedule: 24/7
+  - 3:
+    - Name: Sev-C
+    - Grace Period: 8 (hrs)
+    - Schedule: Monday-Friday, 8am - 5pm
+   
+  - All SLA pages will look something like the picture below:
+  <img src="https://i.imgur.com/S3p6SrJ.png" height="80%" width="80%" alt="SLA Page"/>
   
 </p>
