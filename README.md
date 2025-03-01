@@ -146,3 +146,32 @@ This tutorial outlines the post-install configuration of the open-source help de
   <img src="https://i.imgur.com/S3p6SrJ.png" height="80%" width="80%" alt="SLA Page"/>
   
 </p>
+<br />
+<h3>&#9319; Configure Help Topics</h3>
+
+<p>
+
+- Within "Admin Panel", navigate to Manage -> Help Topics -> Add New Help Topic
+<img src="https://i.imgur.com/y6gPwdT.png" height="80%" width="80%" alt="Help Topic Page"/>
+
+- We are going to create the following Help Topics:
+  - Help Topic 1:
+    - Topic: Business Critical Outage
+    - Parent Topic: Report a Problem
+  - Help Topic 2:
+    - Topic: Personal Computer Issues
+    - Parent Topic: Report a Problem
+  - Help Topic 3:
+    - Topic: Equipment Request
+    - Parent Topic: General Inquiry
+  - Help Topic 4:
+    - Topic: Password Reset
+    - Parent Topic: Report a Problem
+  - Help Topic 5:
+    - Topic: Other
+    - Parent Topic: General Inquiry
+  
+</p>
+<br />
+
+<h2 align=center>Congratulations!! You are now ready to explore the ticket lifecycle!</h2>
