@@ -98,7 +98,7 @@ This tutorial outlines the post-install configuration of the open-source help de
     - Email Address: Jane@lognpacific.com
     - Username: jane
     - Password: Password1
-    - Department: Support / SysAdmins
+    - Department: SysAdmins
     - Role: Supreme Admin
     - Team: Online Banking
   - Agent 2:
