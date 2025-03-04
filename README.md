@@ -32,7 +32,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <p>
 
-- Once logged into osTicket, navigate to "Admin Panel" -> Agents -> Roles
+- In the osTicket installation page, click on "Your Staff Control Panel" link(http://localhost/osTicket/scp), login with admin credentials, then navigate to "Admin Panel" -> Agents -> Roles
 - Click "Add New Role"
 <img src="https://i.imgur.com/egyX7q9.png" height="80%" width="80%" alt="New Role window"/>
 
@@ -48,6 +48,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <p>
 
 - Within osTicket, navigate to "Admin Panel" -> Agents -> Departments
+- Delete the "Maintenance" department to prevent tickets from automatically being sent there
 - Click "Add New Department" then fill out the following fields:
   - Parent: Top Level Department
   - Name: SysAdmins
