@@ -176,3 +176,10 @@ This tutorial outlines the post-install configuration of the open-source help de
 <br />
 
 <h2 align=center>Congratulations!! You are now ready to explore the ticket lifecycle!</h2>
+
+<p>
+
+Once you're finished with post-install configuration, please go <a href="https://github.com/christianDCdev/osTicket-ticket-lifecycle">here</a> to see how tickets are made and resolved within osTicket.
+
+  
+</p>
