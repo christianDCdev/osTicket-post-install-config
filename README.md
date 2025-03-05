@@ -16,7 +16,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 - Windows 10</b> (21H2)
 
-<h2>Prerequisites</h2>
+<h2>Objectives</h2>
 
 - If you haven't installed and setup osTicket yet on your machine, please follow the guide <a href="https://github.com/christianDCdev/osTicket-prereqs">here</a> and come back
 - Configure Roles
